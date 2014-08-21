@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.30)  19 AUG 2014 16:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.30)  21 AUG 2014 09:22
 entering extended mode
 **VETBReport.tex
-(C:\Users\Tim\Desktop\VETBreport19\VETBReport.tex
+(\\cern.ch\dfs\Users\t\tpakulsk\Desktop\VETBgit\VETBreport\VETBReport.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+("C:\Program Files (x86)\LaTeX\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files (x86)\LaTeX\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -31,31 +31,31 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\LaTeX\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\LaTeX\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\LaTeX\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\LaTeX\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -63,24 +63,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen105
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen106
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\LaTeX\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
@@ -121,7 +121,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(C:\Users\Tim\Desktop\VETBreport19\VETBReport.aux)
+(\\cern.ch\dfs\Users\t\tpakulsk\Desktop\VETBgit\VETBreport\VETBReport.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
@@ -135,7 +135,7 @@ LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\LaTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen114
@@ -150,94 +150,99 @@ LaTeX Font Info:    ... okay on input line 10.
 \everyMPtoPDFconversion=\toks21
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Tim\Desktop\VETBreport19\VETBReport.toc)
+{C:/Users/tpakulsk/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(\\cern.ch\dfs\Users\t\tpakulsk\Desktop\VETBgit\VETBreport\VETBReport.toc)
 \tf@toc=\write3
- [1
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
 
-]
-<./images/schematic.jpg, id=12, 725.71124pt x 341.77687pt>
-File: ./images/schematic.jpg Graphic file (type jpg)
-
-<use ./images/schematic.jpg>
-Package pdftex.def Info: ./images/schematic.jpg used on input line 40.
-(pdftex.def)             Requested size: 345.0pt x 162.4813pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--44
-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files (x86)\LaTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
- [2]
-<./images/wide.jpg, id=21, 3276.24pt x 1842.885pt>
-File: ./images/wide.jpg Graphic file (type jpg)
- <use ./images/wide.jpg>
-Package pdftex.def Info: ./images/wide.jpg used on input line 61.
-(pdftex.def)             Requested size: 345.0pt x 194.05698pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
 
+Overfull \hbox (13.8896pt too wide) in paragraph at lines 20--21
+[]\OT1/cmr/m/n/10 Patrick Car-rier (for in-stru-men-ta-tion): +41764870415, Pat
+rick.Carrie@cern.ch 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[1
 
-[3 <C:/Users/Tim/Desktop/VETBreport19/images/schematic.jpg>]
-<./images/valves.jpg, id=27, 3276.24pt x 1842.885pt>
-File: ./images/valves.jpg Graphic file (type jpg)
- <use ./images/valves.jpg>
-Package pdftex.def Info: ./images/valves.jpg used on input line 77.
-(pdftex.def)             Requested size: 345.0pt x 194.05698pt.
+] <./images/schematic.jpg, id=14, 725.71124pt x 341.77687pt>
+File: ./images/schematic.jpg Graphic file (type jpg)
 
+<use ./images/schematic.jpg>
+Package pdftex.def Info: ./images/schematic.jpg used on input line 48.
+(pdftex.def)             Requested size: 345.0pt x 162.4813pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <C:/Users/Tim/Desktop/VETBreport19/images/wide.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+Underfull \hbox (badness 10000) in paragraph at lines 45--53
 
  []
 
-[5 <C:/Users/Tim/Desktop/VETBreport19/images/valves.jpg>] [6]
-<./images/schematicWithValve.jpg, id=38, 725.71124pt x 341.77687pt>
-File: ./images/schematicWithValve.jpg Graphic file (type jpg)
 
-<use ./images/schematicWithValve.jpg>
-Package pdftex.def Info: ./images/schematicWithValve.jpg used on input line 131
-.
-(pdftex.def)             Requested size: 345.0pt x 162.4813pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] <./images/wide.jpg, id=22, 3276.24pt x 1842.885pt>
+File: ./images/wide.jpg Graphic file (type jpg)
+ <use ./images/wide.jpg>
+Package pdftex.def Info: ./images/wide.jpg used on input line 70.
+(pdftex.def)             Requested size: 345.0pt x 194.05698pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8 <C:/Users/Tim/Desktop/VETBreport19/images/schematicWithValve.jpg>]
-(C:\Users\Tim\Desktop\VETBreport19\VETBReport.aux) ) 
+[3 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/schematic.
+jpg>] <./images/valves.jpg, id=27, 3276.24pt x 1842.885pt>
+File: ./images/valves.jpg Graphic file (type jpg)
+
+<use ./images/valves.jpg>
+Package pdftex.def Info: ./images/valves.jpg used on input line 80.
+(pdftex.def)             Requested size: 345.0pt x 194.05698pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/wide.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
+
+ []
+
+[5 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/valves.jpg
+>] [6] <./images/schematicWithValve.jpg, id=38, 725.71124pt x 341.77687pt>
+File: ./images/schematicWithValve.jpg Graphic file (type jpg)
+
+<use ./images/schematicWithValve.jpg>
+Package pdftex.def Info: ./images/schematicWithValve.jpg used on input line 138
+.
+(pdftex.def)             Requested size: 345.0pt x 162.4813pt.
+ [7] [8 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/schem
+aticWithValve.jpg>] [9
+
+]
+(\\cern.ch\dfs\Users\t\tpakulsk\Desktop\VETBgit\VETBreport\VETBReport.aux) ) 
 Here is how much of TeX's memory you used:
- 1807 strings out of 493921
- 23066 string characters out of 3144882
- 81862 words of memory out of 3000000
- 5111 multiletter control sequences out of 15000+200000
+ 1808 strings out of 493921
+ 23098 string characters out of 3146872
+ 81853 words of memory out of 3000000
+ 5112 multiletter control sequences out of 15000+200000
  9975 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,12n,23p,600b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti10.pfb>
-Output written on VETBReport.pdf (9 pages, 4357869 bytes).
+ 27i,12n,23p,736b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:
+/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
+m Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
+ (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/
+LaTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/LaTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/LaTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public
+/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on VETBReport.pdf (10 pages, 4362859 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

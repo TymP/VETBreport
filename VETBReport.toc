@@ -1,16 +1,16 @@
 \contentsline {section}{\numberline {0.1}Introduction}{1}
-\contentsline {subsection}{\numberline {0.1.1}Theory}{1}
-\contentsline {subsection}{\numberline {0.1.2}Specifications}{2}
+\contentsline {subsubsection}{Useful Contacts}{1}
+\contentsline {subsection}{\numberline {0.1.1}Theory}{2}
+\contentsline {subsection}{\numberline {0.1.2}Specifications}{3}
 \contentsline {subsubsection}{Accuracy Specification}{3}
 \contentsline {subsection}{\numberline {0.1.3}State of the Project}{3}
 \contentsline {subsubsection}{Using the Building 27 Rig}{3}
-\contentsline {subsubsection}{Relevant Contacts}{4}
-\contentsline {section}{\numberline {0.2}Instrumentation and DAQ}{4}
-\contentsline {subsection}{\numberline {0.2.1}Bronkhorst Flow Controllers}{4}
-\contentsline {subsubsection}{Operating Principles}{4}
-\contentsline {section}{\numberline {0.3}Problems with Flow Controllers}{5}
+\contentsline {section}{\numberline {0.2}Instrumentation and DAQ}{5}
+\contentsline {subsection}{\numberline {0.2.1}Bronkhorst Flow Controllers}{5}
+\contentsline {subsubsection}{Operating Principles}{5}
+\contentsline {section}{\numberline {0.3}Problems with Flow Controllers}{6}
 \contentsline {subsection}{\numberline {0.3.1}DAQ}{6}
-\contentsline {section}{\numberline {0.4}Analysis tools}{6}
-\contentsline {section}{\numberline {0.5}Recommendations}{6}
+\contentsline {section}{\numberline {0.4}Analysis tools}{7}
+\contentsline {section}{\numberline {0.5}Recommendations}{7}
 \contentsline {subsubsection}{Monitoring temperature}{7}
-\contentsline {subsubsection}{Pressure decay test capability}{7}
+\contentsline {subsubsection}{Pressure decay test capability}{8}
