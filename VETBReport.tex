@@ -63,16 +63,18 @@ The final product should be:
 
 \subsubsection{Accuracy Specification}
 The accuracy of the device is constrained by the allowable errors in the devices uses. An error in the calculated volume will affect the accuracy of both the \textit{allowable} leak rate and the \textit{measured leak rate}.\cite{leakPaola}.
+%ACCURACY SPEC
+%ERROR PROPOGATION
 	
-\subsection{State of the Project}
-So far, the volume estimation concept has been tested using a pressure transmitter and DAQ of Norbert Frank's pressure decay measurement rig in building 27, shown in Figure \ref{b27}. Two different flow meters have been used to measure the volume of a dive bottle. 
+\section{State of the Project}
+So far, the volume estimation concept has been tested using a pressure transmitter and DAQ of Norbert Frank's pressure decay measurement rig in building 27, shown in Figure \ref{b27}. Two different flow controllers have been used to measure the volume of a dive bottle. 
 \begin{figure}[h]
 \includegraphics[width = \textwidth]{wide}
 \caption{The test rig in building 27.}
 \label{b27}
 \end{figure}
-\subsubsection{Using the Building 27 Rig}
-DAQ is handled by a labVIEW module on the local PC. The .vi, saved to the desktop, is called \textit{MAIN\textunderscore ScanChannels.vi}. Tests can be run from the \textit{Stand1} tab on the front panel. The data for each test is saved to a .txt file in a folder at \textit{C:/Project/PressureTest/Data/}. The useful channels are the time and the first pressure signal: \textit{absSysPressure}. The PC also has installed Bronkhorst's Flow DDE and Flow Plot software, which can be used to change the flow controller set point and log its 3 channels through RS232.The current flow controller is connected to a local display for adjusting the set point. The password for the display is \textit{abc}. \\
+\subsection{Using the Building 27 Rig}
+DAQ is handled by a \textit{labVIEW} module on the local PC. The .vi, saved to the desktop, is called \textit{MAIN\textunderscore ScanChannels.vi}. Tests can be run from the \textit{Stand1} tab on the front panel. The data for each test is saved to a .txt file in a folder at \textit{C:/Project/PressureTest/Data/}. The useful channels are the time and the first pressure signal: \textit{absSysPressure}. The PC also has installed Bronkhorst's Flow DDE and Flow Plot software, which can be used to change the flow controller set point and log its 3 channels through RS232.The current flow controller is connected to a local display for adjusting the set point. The password for the display is \textit{abc}. \\
 The rig is connected to the 15 L (true volume) dive bottle with 1/4" VCR fittings. The bottle's volume was confirmed by filling it with water and measuring its change in weight. \\
 The rigs gas inlet, purge line and fluid connection are controlled by valves shown in Figure \ref{valves}.
 
@@ -83,16 +85,40 @@ The rigs gas inlet, purge line and fluid connection are controlled by valves sho
 \end{figure}
 
 Valve 4 connects to an unused part of the rig and is kept close to minimise pipe volume.\\
+\subsubsection{Running a Test}
 To run a test, open the \textit{Stand1} tab of \textit{MAIN\textunderscore ScanChannels.vi} . Type in a name for the test and a start pressure. And click run. Open the valve on the gas bottle, and adjust the pressure reducer to match the calibration pressure of the flow controller. Then, adjust the set point of the flow controller. Ensure the valve between the pressure reducer and the flow controller is open, and the purge and differential valves on the rig are closed. Click the green button \textit{Start DAQ}.
+\subsubsection{Historical Data}
+All historical data is available on the PC linked to the test rig at \textit{C:/Project/PressureTest/Data/}. However, the various tests are poorly organised. You can find a more structured version of the data at \textit{G:/Departments/PH/Groups/DT/PO/Cooling activities/students/tpakulsk/VETB}. The data is organised in to 4 series: \textit{VETB1, VETB2, VETB3} and \textit{VETB4}. In general, data from \textit{VETB1} is of little use, as many of the tests were voided by incorrect inlet pressure and other problems with execution. The remaining three folders following the a naming convention:\\
+\subsubsection{Naming Convention}
+The name of each .txt file from labVIEW or Flowplot denotes the test series, flow rate, test repetition and the signal being measured. The first character of the name represents the test series: A for VETB2, B for VETB3 and C for VETB4. The following 4-character string is the flow rate set point in $ml_nmin^{-1}$. The next digit represents the repetition of the test, and the final character is F for flow data and P for pressure data. An example is shown in \ref{namingConvention}.
+
+\begin{figure}[h]
+\includegraphics[width = 5cm]{namingConvention}
+\caption{An example file name for VETB2, 55 $ml_nmin^{-1}$, second test, flow data}
+\label{namingConvention}
+\end{figure}
+
+
+
 \section{Instrumentation and DAQ}
 \subsection{Bronkhorst Flow Controllers}
-The first iterations of the rig have used Bronkhorst EL FLOW flow controllers. These were borrowed from Patrick Carier of the Gas Group in building 155. 
-%table of to flow controllers.
+The first iterations of the rig have used Bronkhorst \textit{EL FLOW} flow controllers. These were borrowed from Patrick Carrier of the Gas Group in building 155. 
+
+\subsubsection{Flow controllers used}
+\begin{tabular}{ p{2.4cm} | l l }
+Controller: & 1 & 2\\
+Used for: & VETB 1-3 & VETB 4 \\
+Maximum Flow: [$lmin^{-1}$]& 0.1 & 1 \\
+Calibration P: [bar g]& 6 & 3 \\
+Calibration T: [$\,^{\circ}\mathrm{C}$]& 20 & 20\\
+Calibration fluid: & Ar & Ar\\
+Leak tight: & Unlikely & yes\\
+\end{tabular}
  
 \subsubsection{Operating Principles} \label{sec:operatingPrinciples}
-The controllers operate on the thermal mass flow principle, and measure the mass of fluid passing through their regulation valve as a function of the power needed to heat a temperature probe a set distance away in the flow. See appendix. The instruments take a $L_n$ per minute set point via RS232 bus, which they convert for their grams per second control logic using equation \eqref{molarVolume}. In other words, the instruments are calibrated for a specific fluid, inlet pressure and fluid temperature. \textbf{It is essential that these parameters are respected.}
+The controllers operate on the thermal mass flow principle, and measure the mass of fluid passing through their regulation valve as a function of the power needed to heat a temperature probe a set distance away in the flow. \cite{bronkhorst} The instruments take a $L_n$ per minute set point via RS232 bus, which they convert for their grams per second control logic using equation \eqref{molarVolume}. In other words, the instruments are calibrated for a specific fluid, inlet pressure and fluid temperature. \textbf{It is essential that these parameters are respected.}\\
 \\
-In practice, this means using the correct fluid and adjusting the downstream pressure of the reducer to match the value specified in the controller firmware and typically marked on the side of the device. Ambient temperature is more difficult to adjust. Instead, it is good practice to check the calibration temperature, which is typically 273 K, and multiply the volumetric flow rate by a 'temperature gain', as shown in \eqref{temperatureGain}
+In practice, this means using the correct fluid and adjusting the downstream pressure of the reducer to match the value specified in the controller firmware and typically marked on the side of the device. Ambient temperature is more difficult to adjust. Instead, it is good practice to check the calibration temperature, which is typically 273 K, and multiply the volumetric flow rate by a 'temperature gain' using equation \eqref{temperatureGain}.
 \begin{equation} \label{temperatureGain}
 \dot{V}_{true} = \dot{V}_{set point}\frac{T_{true}[K]}{T_{calibrated}[K]}
 \end{equation}
@@ -102,15 +128,21 @@ Alternatively, the temperature gain can be applied to the calculated volume itse
 \section{Problems with Flow Controllers}
 Two major problems were encountered during early iterations of the project. 
 The first version of the instrumentation seemed to exhibit random errors in calculated volume in the order of 10\%, well beyond those predicted by theory. Second, an unexpected correlation between injection flow set point and calculated volume was observed. 
-Both problems were resolved by a change of flow controller. \\
-It appears the most likely explanation for the systematic error is a leak in the instrumentation section. In general, a faster flow rate means a larger integral of pressure with respect to time, which causes a higher net leak flow out of the system. Thus the higher the flow rate, the greater the error due to leaks. 
-No leaks were found in several sniffer tests conducted with both $CO_2$ and helium. However, pressure drops in the instrumentation section  consistent with a leak were observed.
-The random error in calculated volume was most likely due to temperature variations. Minor temperature variations first appeared trivial. While the temperature term is eliminated in the first formulation of the derivation used for data analysis, it can be expressed as a pressure error using the ideal gas law. The linear error implies that the typical 3 degree temperature fluctuations observed were insignificant. \\However, the derivation itself rests on the assumption of constant temperature, and the 1 percent error is enough to invalidate the concept. \\
-The new controller, with 10 times the maximum flow of the old one,  eliminated the systematic error with leak tight connections, and  led to fast-flow tests too short for significant temperature fluctuations. While the old controller required 8-14 hour tests for the 15 L volume, the new one could achieve 1 bar of dP in 30 minutes.
+Both problems were resolved by a change of flow controller. \\ \\
+It appears the most likely explanation for the systematic error is a leak in the instrumentation section. In general, a faster flow rate means a larger integral of pressure with respect to time, which causes a higher net leak flow out of the system. Thus the higher the flow rate, the greater the error due to leaks. No leaks were found in several sniffer tests conducted with both $CO_2$ and helium. However, pressure drops in the instrumentation section  consistent with a leak were observed. \\ \\
+The random error in calculated volume was most likely due to temperature variations. At first, minor temperature variations seemed trivial. The temperature term is eliminated in the first formulation of the derivation used for data analysis, and can only be expressed as a pressure error using the ideal gas law. The resulting linear error implies that the typical 3 degree temperature fluctuations observed were insignificant. \\ \\ The problem with this conclusion is that the derivation itself rests on the assumption of constant temperature, and the 1 percent error is enough to invalidate the concept completely. In other words, a small temperature variation voids the entire test. \\ \\
+The new controller, with 10 times the maximum flow of the old one,  eliminated the systematic error with leak tight connections, and allowed fast-flow tests too short for significant temperature fluctuations. While the old controller required 8-14 hour tests for the 15 L volume, the new one could achieve 4 bar of dP in 30 minutes.
+
+\subsection{Full Scale Error}
+
 \subsection{DAQ}
 Estimating volume requires, at a minimum, two data points of time and pressure and the flow set point. A temperature reading is useful to eliminate a minor systematic error if temperature is constant, or to detect a change in temperature that would void the test. More time and pressure data reduce random errors. \\
-The current rig measure pressure through a 4-20 mA current loop connected to a \textit{LabVIEW} module. The software can log pressure and time in this way. Future iterations of the project will probably simplify the DAQ process by saving the current loop readings with time stamps to a USB storage device. This will allow the test to be run without a laptop. 
+The current rig measure pressure through a 4-20 mA current loop connected to a \textit{LabVIEW} module. The software can log pressure and time in this way. Future iterations of the project will probably simplify the DAQ process by saving the current loop readings with timestamps to a USB storage device. This will allow the test to be run without a laptop. 
 \section{Analysis tools}
+Various analysis tools were used during different stages of research. Calculating volume from two time - pressure points is a simple process that can be done with a hand calculator. However, several tools were developed in Matlab and python to allow for repetitions of this calculation over different data sets or time intervals. The python script \textit{cleanData.py} was used to iterate through diffent time intervals of a single data set, and calculate a volume for each one. The data could then be copied to excel and plotted. 
+\subsection{Alternative Analysis: Slope Interpretation}
+An alternative method for data analysis was explored theoretically but never implemented. The method relies on plotting the relation of pressure inside the test volume against time, and measuring the gradient to calculate the volume. It would elimenate the problem of random errors if two outlier points are selected for the calculation, as it takes into account all of the points in the test.
+
 %ALTERNATIVE FORMULATION: SLOPE INTERPRETATION
 %WHERE TO FIND MATLAB ETC
 %PYTHON SCRIPTS
