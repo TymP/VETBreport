@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.30)  21 AUG 2014 12:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.30)  26 AUG 2014 17:39
 entering extended mode
 **VETBReport.tex
 (\\cern.ch\dfs\Users\t\tpakulsk\Desktop\VETBgit\VETBreport\VETBReport.tex
@@ -182,153 +182,205 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--53
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] <./images/wide.jpg, id=22, 3276.24pt x 1842.885pt>
+[2] [3 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/schema
+tic.jpg>] <./images/wide.jpg, id=26, 3276.24pt x 1842.885pt>
 File: ./images/wide.jpg Graphic file (type jpg)
- <use ./images/wide.jpg>
-Package pdftex.def Info: ./images/wide.jpg used on input line 72.
+
+<use ./images/wide.jpg>
+Package pdftex.def Info: ./images/wide.jpg used on input line 100.
 (pdftex.def)             Requested size: 345.0pt x 194.05698pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/schematic.
-jpg>] <./images/valves.jpg, id=27, 3276.24pt x 1842.885pt>
+[4] <./images/valves.jpg, id=32, 3276.24pt x 1842.885pt>
 File: ./images/valves.jpg Graphic file (type jpg)
 
 <use ./images/valves.jpg>
-Package pdftex.def Info: ./images/valves.jpg used on input line 82.
+Package pdftex.def Info: ./images/valves.jpg used on input line 110.
 (pdftex.def)             Requested size: 345.0pt x 194.05698pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
+<./images/labVIEW.jpg, id=33, 3276.24pt x 1842.885pt>
+File: ./images/labVIEW.jpg Graphic file (type jpg)
 
-Overfull \hbox (67.85945pt too wide) in paragraph at lines 91--92
+<use ./images/labVIEW.jpg>
+Package pdftex.def Info: ./images/labVIEW.jpg used on input line 119.
+(pdftex.def)             Requested size: 345.0pt x 194.05698pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/wide.jpg>]
+
+Overfull \hbox (67.85945pt too wide) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 All his-tor-i-cal data is avail-able on the PC linked to the te
 st rig at \OT1/cmr/m/it/10 C:/Project/PressureTest/Data/\OT1/cmr/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Overfull \hbox (16.56989pt too wide) in paragraph at lines 125--126
+\OT1/cmr/m/it/10 G:/Departments/PH/Groups/DT/PO/Cooling ac-tiv-i-ties/students/
+tpakulsk/VETB\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-[4 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/wide.jpg>]
-<./images/namingConvention.jpg, id=31, 417.05812pt x 120.45pt>
+<./images/namingConvention.jpg, id=37, 417.05812pt x 120.45pt>
 File: ./images/namingConvention.jpg Graphic file (type jpg)
 
 <use ./images/namingConvention.jpg>
-Package pdftex.def Info: ./images/namingConvention.jpg used on input line 96.
+Package pdftex.def Info: ./images/namingConvention.jpg used on input line 130.
 (pdftex.def)             Requested size: 142.26378pt x 41.08661pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/valves.jpg
+[6 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/valves.jpg
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 []\OT1/cmr/m/n/10 Maximum
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 112--112
+Underfull \hbox (badness 4416) in paragraph at lines 146--146
 []\OT1/cmr/m/n/10 Calibration P:
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 113--113
+Underfull \hbox (badness 3547) in paragraph at lines 147--147
 []\OT1/cmr/m/n/10 Calibration T:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
 []\OT1/cmr/m/n/10 Calibration
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--127
-
- []
-
-[6 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/namingConv
+[7 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/labVIEW.jp
+g> <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/namingConv
 ention.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 129--135
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--135
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
+
+ []
+
+<./images/both.png, id=45, 422.32782pt x 315.42844pt>
+File: ./images/both.png Graphic file (type png)
+ <use ./images/both.png>
+Package pdftex.def Info: ./images/both.png used on input line 168.
+(pdftex.def)             Requested size: 345.0pt x 257.68074pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--172
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--135
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--135
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
 
  []
 
-[7] [8] <./images/schematicWithValve.jpg, id=45, 725.71124pt x 341.77687pt>
+[9 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/both.png>]
+<./images/B00552P.png, id=54, 422.32782pt x 315.42844pt>
+File: ./images/B00552P.png Graphic file (type png)
+
+<use ./images/B00552P.png>
+Package pdftex.def Info: ./images/B00552P.png used on input line 185.
+(pdftex.def)             Requested size: 345.0pt x 257.68074pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+
+ []
+
+[11 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/B00552P.p
+ng (PNG copy)>]
+
+LaTeX Warning: Reference `fullScale' on page 12 undefined on input line 222.
+
+[12] <./images/schematicWithValve.jpg, id=65, 725.71124pt x 341.77687pt>
 File: ./images/schematicWithValve.jpg Graphic file (type jpg)
 
 <use ./images/schematicWithValve.jpg>
-Package pdftex.def Info: ./images/schematicWithValve.jpg used on input line 170
+Package pdftex.def Info: ./images/schematicWithValve.jpg used on input line 234
 .
 (pdftex.def)             Requested size: 345.0pt x 162.4813pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] [10 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/schem
-aticWithValve.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[13] [14 <//cern.ch/dfs/Users/t/tpakulsk/Desktop/VETBgit/VETBreport/images/sche
+maticWithValve.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 []\OT1/cmr/m/n/10 Bronkhorst High-Tech \OT1/cmr/m/it/10 EL-FLOW Dig-i-tal Ther-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 \OT1/cmr/m/it/10 mal Mass Flow Me-ters and Con-trollers for Gases
  []
 
-[11
+[15
 
-] (\\cern.ch\dfs\Users\t\tpakulsk\Desktop\VETBgit\VETBreport\VETBReport.aux) ) 
+] (\\cern.ch\dfs\Users\t\tpakulsk\Desktop\VETBgit\VETBreport\VETBReport.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1815 strings out of 493921
- 23283 string characters out of 3146872
- 81865 words of memory out of 3000000
- 5118 multiletter control sequences out of 15000+200000
- 9975 words of font info for 36 fonts, out of 3000000 for 9000
+ 1841 strings out of 493921
+ 23712 string characters out of 3146872
+ 82931 words of memory out of 3000000
+ 5140 multiletter control sequences out of 15000+200000
+ 10673 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,12n,23p,745b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-<
-C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
-ram Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
-es (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86
-)/LaTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/LaTeX/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/LaTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on VETBReport.pdf (12 pages, 4388849 bytes).
+ 27i,12n,23p,766b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
+rogram Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program 
+Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (
+x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/LaT
+eX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/LaTeX/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/am
+sfonts/cm/cmr17.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/c
+m/cmr5.pfb><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmr7.pf
+b><C:/Program Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program F
+iles (x86)/LaTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on VETBReport.pdf (16 pages, 5720312 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

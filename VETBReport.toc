@@ -2,21 +2,23 @@
 \contentsline {subsubsection}{Useful Contacts}{1}
 \contentsline {subsection}{\numberline {0.1.1}Theory}{2}
 \contentsline {subsection}{\numberline {0.1.2}Specifications}{3}
-\contentsline {subsubsection}{Accuracy Specification}{3}
-\contentsline {section}{\numberline {0.2}State of the Project}{3}
-\contentsline {subsection}{\numberline {0.2.1}Using the Building 27 Rig}{3}
-\contentsline {subsubsection}{Running a Test}{4}
-\contentsline {subsubsection}{Historical Data}{5}
-\contentsline {subsubsection}{Naming Convention}{5}
-\contentsline {section}{\numberline {0.3}Instrumentation and DAQ}{6}
-\contentsline {subsection}{\numberline {0.3.1}Bronkhorst Flow Controllers}{6}
-\contentsline {subsubsection}{Flow controllers used}{6}
-\contentsline {subsubsection}{Operating Principles}{6}
-\contentsline {section}{\numberline {0.4}Problems with Flow Controllers}{7}
-\contentsline {subsection}{\numberline {0.4.1}Full Scale Error}{8}
-\contentsline {subsection}{\numberline {0.4.2}DAQ}{8}
-\contentsline {section}{\numberline {0.5}Analysis tools}{8}
-\contentsline {subsection}{\numberline {0.5.1}Alternative Analysis: Slope Interpretation}{8}
-\contentsline {section}{\numberline {0.6}Recommendations}{8}
-\contentsline {subsubsection}{Monitoring temperature}{9}
-\contentsline {subsubsection}{Pressure decay test capability}{9}
+\contentsline {subsection}{\numberline {0.1.3}Accuracy Specification}{3}
+\contentsline {subsubsection}{Error Prorogation}{3}
+\contentsline {section}{\numberline {0.2}State of the Project}{4}
+\contentsline {subsection}{\numberline {0.2.1}Using the Building 27 Rig}{5}
+\contentsline {subsubsection}{Running a Test}{5}
+\contentsline {subsubsection}{Historical Data}{6}
+\contentsline {subsubsection}{Naming Convention}{6}
+\contentsline {section}{\numberline {0.3}Instrumentation and DAQ}{7}
+\contentsline {subsection}{\numberline {0.3.1}Bronkhorst Flow Controllers}{7}
+\contentsline {subsubsection}{Flow controllers used}{8}
+\contentsline {subsubsection}{Operating Principles}{8}
+\contentsline {section}{\numberline {0.4}Problems with Flow Controllers}{8}
+\contentsline {subsection}{\numberline {0.4.1}Theoretical Understanding}{10}
+\contentsline {subsection}{\numberline {0.4.2}Full Scale Error}{10}
+\contentsline {subsection}{\numberline {0.4.3}DAQ}{10}
+\contentsline {section}{\numberline {0.5}Analysis tools}{11}
+\contentsline {subsection}{\numberline {0.5.1}Alternative Analysis: Slope Interpretation}{11}
+\contentsline {section}{\numberline {0.6}Recommendations}{12}
+\contentsline {subsubsection}{Monitoring temperature}{13}
+\contentsline {subsubsection}{Pressure decay test capability}{13}
